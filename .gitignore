@@ -3,3 +3,12 @@ dist
 coverage
 package-lock.json
 src/**/*.js
+## START Yarn v2
+### Read more: https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+## Copy and pasted from .yarn/cache/.gitignore
