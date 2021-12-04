@@ -1,5 +1,3 @@
-type Args = Array<string | { [key: string]: boolean } | false>;
-
 function toClassNameString(val: string | { [key: string]: boolean } | undefined): string {
   let className = "";
   if (typeof val === "string") {
@@ -15,7 +13,7 @@ function toClassNameString(val: string | { [key: string]: boolean } | undefined)
   return className;
 }
 
-export default function _cx(...args: Args): string {
+export default function _cx(...args: Array<string | { [key: string]: boolean } | false): string {
   let className = "";
   for (const item in args) {
     const val = args[item];
