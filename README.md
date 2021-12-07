@@ -1,6 +1,8 @@
 # simple-cx
 
-Just another className compiler. Used for some internal projects.
+Just another className compiler. Used for some internal projects only.
+
+Targeted for `ES2015` compatible browsers.
 
 Usage:
 
